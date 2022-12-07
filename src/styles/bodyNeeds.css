@@ -1,0 +1,73 @@
+.portrait-img {
+    width: 80%;
+    margin: 1rem
+}
+
+.thumbnail-img {
+    width: 80%;
+    margin: 1rem
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+
+.description {
+    font-weight: 200;
+    margin: 2rem 0 2rem;
+}
+
+.text-container {
+    margin: 2rem;
+    line-height: 1.75rem;
+    font-size: 18px;
+}
+
+.sub-title {
+    color: #cf1430;
+    font-weight: 600;
+}
+
+.quote {
+    margin: 1rem 0
+}
+
+.modal-img {
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+}
+
+@media (min-width: 600px) {
+    .layout {
+        display: flex;
+        flex-direction: column;
+    }
+    .img-layout {
+        display: flex;
+    }
+
+    .thumbnail-img {
+        width: 90%;
+        margin: 1.5rem 1rem;
+    }
+}
+
+@media (min-width: 900px) {
+    .layout {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .text-container {
+        width:33.33%;
+    }
+
+}
+
