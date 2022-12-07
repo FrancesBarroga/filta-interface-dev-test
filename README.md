@@ -1,3 +1,8 @@
+# Notes:
+1. Installed Material UI for the modal component
+2. Installed eslint and prettier for code format
+3. Separated the data displayed in a separate folder
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
